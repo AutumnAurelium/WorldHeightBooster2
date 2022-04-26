@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "me.aurelium",
+		"id": "worldheightbooster",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "WorldHeightBooster",
+			"description": "A set of patches to enable absurd world heights.",
 			"contributors": {
-				"Me!": "Owner"
+				"Author": "Aurelium",
+				"Chunk Packet Expansion": "CorgiTaco"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/AutumnAurelium/WorldHeightBooster2/issues",
+				"sources": "https://github.com/AutumnAurelium/WorldHeightBooster2"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/worldheightbooster/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "me.aurelium.worldheightbooster.WorldHeightBooster"
 		},
 		"depends": [
 			{
@@ -36,5 +36,6 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "worldheightbooster.mixins.json",
+	"accesswidener": "worldheightbooster.accesswidener"
 }

@@ -58,6 +58,10 @@ java {
 	// withJavadocJar()
 }
 
+loom {
+	accessWidenerPath = file("src/main/resources/worldheightbooster.accesswidener")
+}
+
 // If you plan to use a different file for the license, don't forget to change the file name here!
 jar {
 	from("LICENSE") {

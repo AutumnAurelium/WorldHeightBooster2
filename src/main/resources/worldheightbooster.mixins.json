@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.aurelium.worldheightbooster.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockPosMixin",
+    "DimensionTypeMixin"
+  ],
+  "client": [
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
