@@ -1,8 +1,8 @@
 # WorldHeightBooster 2
 
-![A screenshot showing a Minecraft world with blocks built at abnormally high Y coordinates.](https://github.com/AutumnAurelium/WorldHeightBooster2/raw/main/showcase.png)
+![A screenshot showing a Minecraft world with blocks built at abnormally high Y coordinates.](/showcase.png | width=400)
 
-![Supported on Quilt Loader](https://github.com/AutumnAurelium/WorldHeightBooster2/blob/main/quilt_supported.png?raw=true)
+![Supported on Quilt Loader](/quilt_supported.png | width=100)
 
 WorldHeightBooster 2 is a rewrite of the [original mod](https://github.com/AutumnAurelium/WorldHeightBooster), made for one of the first 1.17 snapshots alongside internal world height changes. It removes limits on the default world height achievable via datapacks.
 
