@@ -25,3 +25,5 @@ bin/
 
 # macOS
 *.DS_Store
+
+src/main/resources/data
